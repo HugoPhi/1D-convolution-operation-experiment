@@ -1,0 +1,49 @@
+$date
+	Mon Dec 11 12:52:01 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sim $end
+$var wire 257 ! out [256:0] $end
+$var reg 255 " in [254:0] $end
+$var reg 3 # ker [2:0] $end
+$scope module dut $end
+$var wire 255 $ in [254:0] $end
+$var wire 3 % kernel [2:0] $end
+$var wire 257 & out [256:0] $end
+$var parameter 32 ' inlen $end
+$var parameter 32 ( kernlen $end
+$var reg 260 ) augmented_in [259:0] $end
+$var reg 257 * conv_res [256:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 + i [31:0] $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 , j [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b11111111 '
+$end
+#0
+$dumpvars
+b11 ,
+b100000001 +
+b1110000000001110110011 *
+b1101010101011000111100 )
+b1110000000001110110011 &
+b101 %
+b11010101010110001111 $
+b101 #
+b11010101010110001111 "
+b1110000000001110110011 !
+$end
+#10
