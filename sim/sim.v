@@ -5,7 +5,7 @@ module sim ();
     
     convdim1 dut (.in(in), .kernel(ker), .out(out));
     initial begin
-        $dumpfile("sim.vcd");
+        $dumpfile("/root/CodeHub/verilog/final_term/target/sim.vcd");
         $dumpvars(0, sim);
         
         in = 255'b011010101010110001111;

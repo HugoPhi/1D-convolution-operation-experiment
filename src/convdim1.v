@@ -1,4 +1,4 @@
-module convdim1 #(parameter inlen = 255, parameter kernlen = 3) (
+module convdim1 #(parameter inlen=255, parameter kernlen=3) (
     input  wire[inlen-1:0]             in,
     input  wire[kernlen-1:0]           kernel,
     output wire[inlen+kernlen-2:0]     out);
