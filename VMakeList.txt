@@ -1,10 +1,7 @@
 # the compile structure
 
-## top module
-#-s sim
-
 ## module files
-$prj/src/main.v
+$prj/src/top.v
 $prj/src/convdim1.v
 $prj/sim/sim.v
 
